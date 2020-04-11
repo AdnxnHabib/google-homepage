@@ -1,16 +1,14 @@
 
 
 .search-bar{
-    padding: 50px;
-   text-align: center;
-   vertical-align: middle;
+    
 }
 
 
 
 .search-bar-input{
     
-   border: 0.2em solid;
+  
    border-radius: 10px;
    width: 500px;
    height: 30px;
@@ -20,15 +18,17 @@
 
 .logo{
 
-    position: absolute;
-    float: center;
-    padding: 100px;
-    text-align: center;
-    vertical-align: center;
+   
   
 }
-.box{
-  
-
-   
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: grey;
 }
