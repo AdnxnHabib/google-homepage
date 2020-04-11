@@ -1,4 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 
+.header{
+    
+    
+  
+
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+ 
+    position: relative;
+    padding: 300px;
+    margin-bottom: 200px;
+}
+
+.footer{
+   
+    
+}
 
 .search-bar{
     
@@ -8,19 +31,92 @@
 
 .search-bar-input{
     
-  
+
+    position: absolute;
    border-radius: 10px;
-   width: 500px;
+   width:700px;
    height: 30px;
-   
+   right: 560px;
+   bottom: 200px;
   
 }
+
+.top-nav{
+
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    
+}
+
+.left-1 {
+    top: 10px;
+   position: absolute;
+   left: 10px;
+}
+
+.left-2{
+    top: 10px;
+    position: absolute;
+    left: 80px;
+}
+
+.right-1{
+
+  position: relative;
+  top: 10px;
+}
+
+.right-2{
+    position: relative;
+    top: 10px;
+  
+}
+
+
+.right-3{
+    position: relative;
+    top: 8px;
+  
+}
+
 
 .logo{
 
-   
+  position: absolute;
+  right: 800px;
+  bottom: 250px;
   
 }
+
+.main-buttons{
+    position: absolute;
+    right: 780px;
+    bottom: 150px;
+}
+
+.bottom-nav{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.bottom-left-1{
+    position: absolute;
+    left: 10px;
+}
+
+
+.bottom-left-2{
+    position: absolute;
+    left: 120px;
+}
+
+.bottom-left-3{
+    position: absolute;
+    left: 200px;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -31,4 +127,9 @@ ul{
 a{
     text-decoration: none;
     color: grey;
+}
+
+li{
+   
+    padding: 8px;
 }
